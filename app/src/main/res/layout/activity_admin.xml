@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f3f1f4"
+    tools:context=".AdminActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/profile"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="162dp"
+            android:layout_height="102dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginStart="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/person" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:layout_margin="15dp"
+            android:text="Quazi Mahmudul Huq"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile Info"
+        android:layout_marginTop="20dp"
+        android:textAlignment="viewStart"
+        android:textColor="#928e8f"
+        android:background="#ffffff"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="10dp"
+        android:drawableEnd="@drawable/ic_profile_back"
+        android:drawableStart="@drawable/personclip"
+        android:drawablePadding="10dp"
+        android:layout_marginBottom="5dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp">
+
+    </View>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New Course"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="5dp"
+        android:textAlignment="viewStart"
+        android:textColor="#928e8f"
+        android:background="#ffffff"
+        android:layout_marginStart="10dp"
+        android:drawableEnd="@drawable/ic_profile_back"
+        android:drawableStart="@drawable/addcourse"
+        android:drawablePadding="10dp"
+        android:layout_marginBottom="5dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp">
+
+    </View>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add PDF Files"
+        android:layout_marginTop="5dp"
+        android:textAlignment="viewStart"
+        android:layout_marginEnd="5dp"
+        android:textColor="#928e8f"
+        android:background="#ffffff"
+        android:layout_marginStart="10dp"
+        android:drawableEnd="@drawable/ic_profile_back"
+        android:drawableStart="@drawable/pdfadd"
+        android:drawablePadding="10dp"
+        android:layout_marginBottom="5dp"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp">
+
+    </View>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log out"
+        android:layout_marginEnd="5dp"
+        android:id="@+id/logout"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="5dp"
+        android:textAlignment="viewStart"
+        android:textColor="#928e8f"
+        android:background="#ffffff"
+        android:layout_marginStart="10dp"
+        android:drawableEnd="@drawable/ic_profile_back"
+        android:drawableStart="@drawable/logoutadmin"
+        android:drawablePadding="10dp"
+        android:layout_marginBottom="5dp"/>
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/adminprogressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:visibility="gone" />
+
+</LinearLayout>
